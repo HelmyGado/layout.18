@@ -3,14 +3,17 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.logo {
+  width: 400px;
+}
 .logo img {
-  width: 40%;
+  width: 100%;
   display: flex;
   padding-left: 20%;
 }
 .contaner {
-  height: 100%;
-  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
